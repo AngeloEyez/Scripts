@@ -123,3 +123,6 @@ chmod 600 configuration.yml
 
 systemctl enable authelia
 systemctl start authelia
+systemctl status authelia
+
+echo "Try http://localhost:9091 to check if Authelia is up."
